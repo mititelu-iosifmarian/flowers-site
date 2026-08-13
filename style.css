@@ -161,8 +161,6 @@ body {
 
 .article-content p:first-child::first-letter {
 
-    float: left;
-
     font-size:
         22x;
 

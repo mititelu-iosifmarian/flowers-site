@@ -32,6 +32,8 @@ body {
         35px
         55px
         40px;
+    
+    padding-bottom: 120px;
 
     background:
         #f5f0e5;
@@ -289,76 +291,119 @@ body {
 }
 
 
-/* -------------------------
-   NAVIGATION
+//* -------------------------
+   FLOATING NAVIGATION
 ------------------------- */
 
 .navigation {
-    clear: both;
+    position: fixed;
+
+    bottom: 25px;
+    left: 0;
+
+    width: 100%;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    justify-content:
-        space-between;
+    padding: 0 25px;
 
-    align-items:
-        center;
+    pointer-events: none;
 
-    margin-top: auto;
+    z-index: 1000;
 
-    padding-top:
-        20px;
-
-    border-top:
-        1px
-        solid
-        #555;
+    border: none;
 }
 
+
+/* ARROW BUTTONS */
 
 .navigation button {
+    pointer-events: auto;
 
-    background:
-        transparent;
+    width: 65px;
+    height: 65px;
 
-    border:
-        none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    font-family:
-        Georgia,
-        serif;
+    border: 2px solid #222;
+    border-radius: 50%;
 
-    font-size:
-        17px;
+    background: rgba(245, 240, 229, 0.92);
 
-    font-weight:
-        bold;
+    font-family: Georgia, serif;
 
-    cursor:
-        pointer;
+    font-size: 0;
 
-    padding:
-        10px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        background 0.15s ease;
 }
 
+
+/* LEFT ARROW */
+
+#previousButton::after {
+    content: "←";
+
+    font-size: 40px;
+
+    line-height: 1;
+}
+
+
+/* RIGHT ARROW */
+
+#nextButton::after {
+    content: "→";
+
+    font-size: 40px;
+
+    line-height: 1;
+}
+
+
+/* HOVER */
 
 .navigation button:hover {
+    transform: scale(1.1);
 
-    text-decoration:
-        underline;
+    background: #ffffff;
 }
 
 
+/* DISABLED BUTTON */
+
 .navigation button:disabled {
+    opacity: 0.2;
 
-    opacity:
-        0.25;
+    cursor: default;
 
-    cursor:
-        default;
+    transform: none;
+}
 
-    text-decoration:
-        none;
+
+/* PAGE COUNTER */
+
+#pageCounter {
+    pointer-events: auto;
+
+    background: rgba(245, 240, 229, 0.92);
+
+    padding: 7px 13px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    border: 1px solid #777;
 }
 
 
@@ -490,6 +535,7 @@ body {
             20px
             18px
             24px;
+        padding-bottom: 100px;
 
         box-shadow: none;
     }
@@ -595,28 +641,30 @@ body {
 
     /* NAVIGATION */
 
-    .navigation {
-        gap: 10px;
+        .navigation {
+        bottom: 15px;
 
-        margin-top: auto;
-
-        padding-top: 18px;
+        padding:
+            0
+            12px;
     }
 
     .navigation button {
-        font-size: 16px;
+        width: 55px;
+        height: 55px;
+    }
 
-        padding:
-            12px
-            8px;
-
-        min-width: 90px;
+    #previousButton::after,
+    #nextButton::after {
+        font-size: 34px;
     }
 
     #pageCounter {
-        font-size: 13px;
+        font-size: 12px;
 
-        white-space: nowrap;
+        padding:
+            6px
+            10px;
     }
 
 }
@@ -646,15 +694,14 @@ body {
     .article-content {
         font-size: 16px;
     }
-
     .navigation button {
-        font-size: 14px;
-
-        min-width: auto;
+        width: 50px;
+        height: 50px;
     }
 
-    #pageCounter {
-        font-size: 12px;
+    #previousButton::after,
+    #nextButton::after {
+        font-size: 31px;
     }
 }
 

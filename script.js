@@ -112,8 +112,7 @@ function renderArticle() {
 
 
     document.title =
-        flower["Flower Name"]
-        + " | The Flower Journal";
+        "Ziarul Marian | Florile Otiliei";
 
 
     /* MAIN TEXT */

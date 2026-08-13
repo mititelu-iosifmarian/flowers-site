@@ -34,8 +34,6 @@ const nextButton =
 const pageCounter =
     document.getElementById("pageCounter");
 
-const pageNumber =
-    document.getElementById("pageNumber");
 
 
 /* -------------------------
@@ -252,9 +250,6 @@ function renderArticle() {
 
     pageCounter.textContent =
         `${currentPage + 1} / ${flowers.length}`;
-
-    pageNumber.textContent =
-        `Page ${currentPage + 1}`;
 
 
     /* BUTTON STATE */

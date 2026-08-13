@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background:
+        #d8d2c4;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    color: #181818;
+}
+
+
+/* -------------------------
+   NEWSPAPER PAGE
+------------------------- */
+
+.newspaper {
+
+    max-width: 1050px;
+
+    min-height: 95vh;
+
+    margin: 25px auto;
+
+    padding:
+        35px
+        55px
+        40px;
+
+    background:
+        #f5f0e5;
+
+    box-shadow:
+        0 4px 20px
+        rgba(0,0,0,0.18);
+}
+
+
+/* -------------------------
+   HEADER
+------------------------- */
+
+.newspaper-header {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.top-line,
+.bottom-line {
+    border-top:
+        2px
+        solid
+        #222;
+}
+
+
+.newspaper-header h1 {
+
+    margin:
+        12px
+        0
+        8px;
+
+    font-size:
+        46px;
+
+    letter-spacing:
+        5px;
+
+    font-weight:
+        700;
+}
+
+
+.header-info {
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    padding:
+        8px
+        4px;
+
+    font-size:
+        13px;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1px;
+}
+
+
+/* -------------------------
+   ARTICLE
+------------------------- */
+
+.article h2 {
+
+    text-align: center;
+
+    font-size:
+        42px;
+
+    line-height:
+        1.05;
+
+    margin:
+        0
+        0
+        30px;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1px;
+}
+
+
+.article-content {
+
+    font-size:
+        19px;
+
+    line-height:
+        1.65;
+
+    text-align:
+        justify;
+}
+
+
+.article-content p {
+
+    margin:
+        0
+        0
+        18px;
+}
+
+
+/* First letter newspaper effect */
+
+.article-content p:first-child::first-letter {
+
+    float: left;
+
+    font-size:
+        72px;
+
+    line-height:
+        55px;
+
+    padding-right:
+        8px;
+
+    padding-top:
+        8px;
+
+    font-weight:
+        bold;
+}
+
+
+/* -------------------------
+   MAIN IMAGE
+------------------------- */
+
+.main-image {
+
+    width:
+        330px;
+
+    max-height:
+        400px;
+
+    object-fit:
+        cover;
+
+    float:
+        right;
+
+    margin:
+        0
+        0
+        20px
+        30px;
+
+    border:
+        1px
+        solid
+        #333;
+
+    padding:
+        5px;
+
+    background:
+        #eee8db;
+}
+
+
+/* -------------------------
+   BONUS SECTION
+------------------------- */
+
+.bonus-section {
+
+    clear: both;
+
+    display: none;
+
+    margin-top:
+        45px;
+
+    padding-top:
+        25px;
+
+    border-top:
+        3px
+        double
+        #222;
+}
+
+
+.bonus-title {
+
+    font-size:
+        14px;
+
+    font-weight:
+        bold;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        3px;
+
+    margin-bottom:
+        15px;
+}
+
+
+#bonusText {
+
+    font-size:
+        17px;
+
+    line-height:
+        1.6;
+
+    text-align:
+        justify;
+
+    margin-bottom:
+        20px;
+}
+
+
+.bonus-image {
+
+    display: none;
+
+    width:
+        100%;
+
+    max-width:
+        650px;
+
+    margin:
+        25px
+        auto
+        0;
+
+    border:
+        1px
+        solid
+        #333;
+
+    padding:
+        6px;
+
+    background:
+        white;
+}
+
+
+/* -------------------------
+   NAVIGATION
+------------------------- */
+
+.navigation {
+
+    clear: both;
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    margin-top:
+        55px;
+
+    padding-top:
+        20px;
+
+    border-top:
+        1px
+        solid
+        #555;
+}
+
+
+.navigation button {
+
+    background:
+        transparent;
+
+    border:
+        none;
+
+    font-family:
+        Georgia,
+        serif;
+
+    font-size:
+        17px;
+
+    font-weight:
+        bold;
+
+    cursor:
+        pointer;
+
+    padding:
+        10px;
+}
+
+
+.navigation button:hover {
+
+    text-decoration:
+        underline;
+}
+
+
+.navigation button:disabled {
+
+    opacity:
+        0.25;
+
+    cursor:
+        default;
+
+    text-decoration:
+        none;
+}
+
+
+#pageCounter {
+
+    font-size:
+        14px;
+
+    letter-spacing:
+        1px;
+}
+
+
+/* -------------------------
+   MOBILE
+------------------------- */
+
+@media (max-width: 700px) {
+
+    .newspaper {
+
+        margin: 0;
+
+        padding:
+            25px
+            20px;
+
+        min-height:
+            100vh;
+    }
+
+
+    .newspaper-header h1 {
+
+        font-size:
+            28px;
+
+        letter-spacing:
+            2px;
+    }
+
+
+    .article h2 {
+
+        font-size:
+            32px;
+    }
+
+
+    .main-image {
+
+        float:
+            none;
+
+        display:
+            block;
+
+        width:
+            100%;
+
+        max-width:
+            100%;
+
+        margin:
+            0
+            auto
+            25px;
+    }
+
+
+    .article-content {
+
+        font-size:
+            17px;
+    }
+
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Newspaper</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="newspaper">
+
+    <header class="newspaper-header">
+        <div class="top-line"></div>
+
+        <h1>THE FLOWER JOURNAL</h1>
+
+        <div class="header-info">
+            <span>Stories written in petals</span>
+            <span id="pageNumber">Page 1</span>
+        </div>
+
+        <div class="bottom-line"></div>
+    </header>
+
+
+    <main id="articleContainer">
+
+        <article class="article">
+
+            <h2 id="flowerName">
+                Loading...
+            </h2>
+
+            <div class="article-content">
+
+                <img
+                    id="mainImage"
+                    class="main-image"
+                    src=""
+                    alt=""
+                >
+
+                <div id="articleText"></div>
+
+            </div>
+
+
+            <section
+                id="bonusSection"
+                class="bonus-section"
+            >
+
+                <div class="bonus-title">
+                    Bonus
+                </div>
+
+                <div id="bonusText"></div>
+
+                <img
+                    id="bonusImage"
+                    class="bonus-image"
+                    src=""
+                    alt=""
+                >
+
+            </section>
+
+        </article>
+
+    </main>
+
+
+    <footer class="navigation">
+
+        <button id="previousButton">
+            ← Previous
+        </button>
+
+        <span id="pageCounter">
+            1 / 1
+        </span>
+
+        <button id="nextButton">
+            Next →
+        </button>
+
+    </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

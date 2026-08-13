@@ -22,10 +22,9 @@ body {
 ------------------------- */
 
 .newspaper {
-
     max-width: 1050px;
 
-    min-height: 95vh;
+    min-height: calc(100vh - 50px);
 
     margin: 25px auto;
 
@@ -40,8 +39,14 @@ body {
     box-shadow:
         0 4px 20px
         rgba(0,0,0,0.18);
+
+    display: flex;
+    flex-direction: column;
 }
 
+#articleContainer {
+    flex: 1;
+}
 
 /* -------------------------
    HEADER
@@ -159,10 +164,10 @@ body {
     float: left;
 
     font-size:
-        72px;
+        22x;
 
     line-height:
-        55px;
+        15x;
 
     padding-right:
         8px;
@@ -180,24 +185,18 @@ body {
 ------------------------- */
 
 .main-image {
+    width: 330px;
+    max-height: 400px;
 
-    width:
-        330px;
+    object-fit: cover;
 
-    max-height:
-        400px;
-
-    object-fit:
-        cover;
-
-    float:
-        right;
+    float: left;
 
     margin:
         0
-        0
+        30px
         20px
-        30px;
+        0;
 
     border:
         1px
@@ -303,7 +302,6 @@ body {
 ------------------------- */
 
 .navigation {
-
     clear: both;
 
     display: flex;
@@ -314,8 +312,7 @@ body {
     align-items:
         center;
 
-    margin-top:
-        55px;
+    margin-top: auto;
 
     padding-top:
         20px;

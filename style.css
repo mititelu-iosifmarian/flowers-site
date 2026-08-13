@@ -5,8 +5,7 @@
 body {
     margin: 0;
 
-    background:
-        #d8d2c4;
+    background: #d8d2c4;
 
     font-family:
         Georgia,
@@ -31,16 +30,13 @@ body {
     padding:
         35px
         55px
-        40px;
-    
-    padding-bottom: 120px;
+        120px;
 
-    background:
-        #f5f0e5;
+    background: #f5f0e5;
 
     box-shadow:
         0 4px 20px
-        rgba(0,0,0,0.18);
+        rgba(0, 0, 0, 0.18);
 
     display: flex;
     flex-direction: column;
@@ -50,63 +46,48 @@ body {
     flex: 1;
 }
 
+
 /* -------------------------
    HEADER
 ------------------------- */
 
 .newspaper-header {
     text-align: center;
-
     margin-bottom: 35px;
 }
 
-
 .top-line,
 .bottom-line {
-    border-top:
-        2px
-        solid
-        #222;
+    border-top: 2px solid #222;
 }
 
-
 .newspaper-header h1 {
-
     margin:
         12px
         0
         8px;
 
-    font-size:
-        46px;
+    font-size: 46px;
 
-    letter-spacing:
-        5px;
+    letter-spacing: 5px;
 
-    font-weight:
-        700;
+    font-weight: 700;
 }
 
-
 .header-info {
-
     display: flex;
 
-    justify-content:
-        space-between;
+    justify-content: center;
 
     padding:
         8px
         4px;
 
-    font-size:
-        13px;
+    font-size: 13px;
 
-    text-transform:
-        uppercase;
+    text-transform: uppercase;
 
-    letter-spacing:
-        1px;
+    letter-spacing: 1px;
 }
 
 
@@ -115,62 +96,35 @@ body {
 ------------------------- */
 
 .article h2 {
-
     text-align: center;
 
-    font-size:
-        42px;
+    font-size: 42px;
 
-    line-height:
-        1.05;
+    line-height: 1.05;
 
     margin:
         0
         0
         30px;
 
-    text-transform:
-        uppercase;
+    text-transform: uppercase;
 
-    letter-spacing:
-        1px;
+    letter-spacing: 1px;
 }
-
 
 .article-content {
+    font-size: 19px;
 
-    font-size:
-        19px;
+    line-height: 1.65;
 
-    line-height:
-        1.65;
-
-    text-align:
-        justify;
+    text-align: justify;
 }
 
-
 .article-content p {
-
     margin:
         0
         0
         18px;
-}
-
-
-/* First letter newspaper effect */
-
-.article-content p:first-child::first-letter {
-
-    font-size:
-        22x;
-
-    line-height:
-        15x;
-
-    font-weight:
-        bold;
 }
 
 
@@ -180,6 +134,7 @@ body {
 
 .main-image {
     width: 330px;
+
     max-height: 400px;
 
     object-fit: cover;
@@ -192,16 +147,11 @@ body {
         20px
         0;
 
-    border:
-        1px
-        solid
-        #333;
+    border: 1px solid #333;
 
-    padding:
-        5px;
+    padding: 5px;
 
-    background:
-        #eee8db;
+    background: #eee8db;
 }
 
 
@@ -210,19 +160,13 @@ body {
 ------------------------- */
 
 .bonus-section {
-
     clear: both;
 
     display: none;
 
-    margin-top:
-        45px;
+    margin-top: 45px;
 
-    padding-top:
-        25px;
-
-    padding-bottom:
-        100px;
+    padding-top: 25px;
 
     border-top:
         3px
@@ -230,71 +174,49 @@ body {
         #222;
 }
 
-
 .bonus-title {
+    font-size: 14px;
 
-    font-size:
-        14px;
+    font-weight: bold;
 
-    font-weight:
-        bold;
+    text-transform: uppercase;
 
-    text-transform:
-        uppercase;
+    letter-spacing: 3px;
 
-    letter-spacing:
-        3px;
-
-    margin-bottom:
-        15px;
+    margin-bottom: 15px;
 }
-
 
 #bonusText {
+    font-size: 17px;
 
-    font-size:
-        17px;
+    line-height: 1.6;
 
-    line-height:
-        1.6;
+    text-align: justify;
 
-    text-align:
-        justify;
-
-    margin-bottom:
-        20px;
+    margin-bottom: 20px;
 }
 
-
 .bonus-image {
-
     display: none;
 
-    width:
-        100%;
+    width: 100%;
 
-    max-width:
-        650px;
+    max-width: 650px;
 
     margin:
         25px
         auto
         0;
 
-    border:
-        1px
-        solid
-        #333;
+    border: 1px solid #333;
 
-    padding:
-        6px;
+    padding: 6px;
 
-    background:
-        white;
+    background: white;
 }
 
 
-//* -------------------------
+/* -------------------------
    FLOATING NAVIGATION
 ------------------------- */
 
@@ -307,10 +229,13 @@ body {
     width: 100%;
 
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 25px;
+    padding:
+        0
+        25px;
 
     pointer-events: none;
 
@@ -325,25 +250,34 @@ body {
 .navigation button {
     pointer-events: auto;
 
-    width: 65px;
-    height: 65px;
+    width: 68px;
+    height: 68px;
 
     display: flex;
+
     align-items: center;
     justify-content: center;
 
     border: 2px solid #222;
+
     border-radius: 50%;
 
-    background: rgba(245, 240, 229, 0.92);
+    background:
+        rgba(245, 240, 229, 0.94);
 
-    font-family: Georgia, serif;
+    font-family:
+        Georgia,
+        serif;
 
     font-size: 0;
 
     font-weight: bold;
 
     cursor: pointer;
+
+    box-shadow:
+        0 3px 10px
+        rgba(0, 0, 0, 0.18);
 
     transition:
         transform 0.15s ease,
@@ -356,7 +290,7 @@ body {
 #previousButton::after {
     content: "←";
 
-    font-size: 40px;
+    font-size: 42px;
 
     line-height: 1;
 }
@@ -367,7 +301,7 @@ body {
 #nextButton::after {
     content: "→";
 
-    font-size: 40px;
+    font-size: 42px;
 
     line-height: 1;
 }
@@ -382,7 +316,7 @@ body {
 }
 
 
-/* DISABLED BUTTON */
+/* DISABLED */
 
 .navigation button:disabled {
     opacity: 0.2;
@@ -398,92 +332,25 @@ body {
 #pageCounter {
     pointer-events: auto;
 
-    background: rgba(245, 240, 229, 0.92);
+    background:
+        rgba(245, 240, 229, 0.94);
 
-    padding: 7px 13px;
+    padding:
+        7px
+        13px;
 
     border-radius: 20px;
 
+    border:
+        1px
+        solid
+        #777;
+
     font-size: 14px;
 
-    border: 1px solid #777;
+    letter-spacing: 1px;
 }
 
-
-#pageCounter {
-
-    font-size:
-        14px;
-
-    letter-spacing:
-        1px;
-}
-
-
-/* -------------------------
-   MOBILE
-------------------------- */
-
-@media (max-width: 700px) {
-
-    .newspaper {
-
-        margin: 0;
-
-        padding:
-            25px
-            20px;
-
-        min-height:
-            100vh;
-    }
-
-
-    .newspaper-header h1 {
-
-        font-size:
-            28px;
-
-        letter-spacing:
-            2px;
-    }
-
-
-    .article h2 {
-
-        font-size:
-            32px;
-    }
-
-
-    .main-image {
-
-        float:
-            none;
-
-        display:
-            block;
-
-        width:
-            100%;
-
-        max-width:
-            100%;
-
-        margin:
-            0
-            auto
-            25px;
-    }
-
-
-    .article-content {
-
-        font-size:
-            17px;
-    }
-
-}
 
 /* -------------------------
    TABLET
@@ -493,12 +360,19 @@ body {
 
     .newspaper {
         margin: 12px;
-        padding: 28px 30px;
-        min-height: calc(100vh - 24px);
+
+        padding:
+            28px
+            30px
+            110px;
+
+        min-height:
+            calc(100vh - 24px);
     }
 
     .newspaper-header h1 {
         font-size: 38px;
+
         letter-spacing: 3px;
     }
 
@@ -528,6 +402,7 @@ body {
 
     .newspaper {
         width: 100%;
+
         max-width: none;
 
         min-height: 100vh;
@@ -537,8 +412,7 @@ body {
         padding:
             20px
             18px
-            24px;
-        padding-bottom: 100px;
+            100px;
 
         box-shadow: none;
     }
@@ -572,7 +446,7 @@ body {
     }
 
 
-    /* ARTICLE TITLE */
+    /* TITLE */
 
     .article h2 {
         font-size: 30px;
@@ -591,6 +465,7 @@ body {
         display: block;
 
         width: 100%;
+
         max-width: 420px;
 
         max-height: none;
@@ -642,9 +517,9 @@ body {
     }
 
 
-    /* NAVIGATION */
+    /* FLOATING NAVIGATION */
 
-        .navigation {
+    .navigation {
         bottom: 15px;
 
         padding:
@@ -653,13 +528,13 @@ body {
     }
 
     .navigation button {
-        width: 55px;
-        height: 55px;
+        width: 56px;
+        height: 56px;
     }
 
     #previousButton::after,
     #nextButton::after {
-        font-size: 34px;
+        font-size: 36px;
     }
 
     #pageCounter {
@@ -669,7 +544,6 @@ body {
             6px
             10px;
     }
-
 }
 
 
@@ -683,7 +557,7 @@ body {
         padding:
             16px
             14px
-            20px;
+            95px;
     }
 
     .newspaper-header h1 {
@@ -697,6 +571,7 @@ body {
     .article-content {
         font-size: 16px;
     }
+
     .navigation button {
         width: 50px;
         height: 50px;
@@ -704,28 +579,6 @@ body {
 
     #previousButton::after,
     #nextButton::after {
-        font-size: 31px;
+        font-size: 32px;
     }
-}
-
-@media (max-width: 430px) {
-
-    #previousButton {
-        font-size: 0;
-    }
-
-    #previousButton::after {
-        content: "←";
-        font-size: 24px;
-    }
-
-    #nextButton {
-        font-size: 0;
-    }
-
-    #nextButton::after {
-        content: "→";
-        font-size: 24px;
-    }
-
 }

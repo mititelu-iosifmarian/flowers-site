@@ -68,5 +68,19 @@
         "Bonus": "",
         "Image Link": "https://www.fabricademov.ro/wp-content/uploads/2024/06/Lavandula-angustifolia-1.jpg",
         "Van Gogh Image Link": "https://iiif.micr.io/TGOHC/full/1800,/0/default.webp"
+    },
+    {
+        "Flower Name": "Iberis(Lilicel)",
+        "Fact": "In limbajul florilor reprezintă indiferenta. In contrast cu asta, ea este o planta care poate crește in sol pietros si uscat. Astfel indiferență poate fi interpretat ca: \"Pot sa înfloresc chiar daca lumea din jurul meu nu este blândă",
+        "Bonus": "",
+        "Image Link": "https://apps.rhs.org.uk/plantselectorimages/detail/visi22809.jpg",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Nufar",
+        "Fact": "In Feng Shui apa reprezinta curgerea vietii. Nufarul nu incearca sa opreasca apa, ci invata sa pluteasca pe ea. Este un simbol al linistii care nu vine din lipsa problemelor, ci a capacitati de a nu te scufunda in ele.",
+        "Bonus": "",
+        "Image Link": "https://www.royalplant.ro/211/nufar-nymphaea-marliacea-albida.jpg",
+        "Van Gogh Image Link": ""
     }
 ]

@@ -85,16 +85,79 @@
     },
     {
         "Flower Name": "Azalee",
-        "Fact": "Floare de astazi este Azaleea. In limbajul florilor este asociata cu grija fata de cineva, delicatea si afectiune. De aici i sa asociat si un mesaj: \"Ai grija de tine pentru mine\". Exista si un contrast deoarece ele sunt toxice daca le ingerezi, sunt asociate si cu prudenta. Astfel transmite si ideea unei limite care nu trebuie incalcata.",
+        "Fact": "In limbajul florilor este asociata cu grija fata de cineva, delicatea si afectiune. De aici i sa asociat si un mesaj: \"Ai grija de tine pentru mine\". Exista si un contrast deoarece ele sunt toxice daca le ingerezi, sunt asociate si cu prudenta. Astfel transmite si ideea unei limite care nu trebuie incalcata.",
         "Bonus": "",
         "Image Link": "https://tuia.ro/wp-content/uploads-webpc/uploads/2024/02/20200602_132243-2-3.png.webp",
         "Van Gogh Image Link": ""
     },
     {
         "Flower Name": "Aquilegia ",
-        "Fact": "Floarea de astazi este Aquilegia (Caldarusa). In limba latina este asociata cu \"Aquila\"(Vultur), fiindca petalelor florii ar semana cu gherele unui vultur. In engleza insa este  \"columbine\" , de la porumbel. Deci aceeasi floare e vazuta si ca vultur si ca porumbel.",
+        "Fact": "In limba latina este asociata cu \"Aquila\"(Vultur), fiindca petalelor florii ar semana cu gherele unui vultur. In engleza insa este  \"columbine\" , de la porumbel. Deci aceeasi floare e vazuta si ca vultur si ca porumbel.",
         "Bonus": "",
         "Image Link": "https://pepinieraromaniei.ro/cdn/shop/files/Bulbi-de-Caldaruse-Aquilegia-Spring-Magic-Navy-and-4.jpg?v=1782371142",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Panseluta",
+        "Fact": "Floarea de astazi este Panseluta. Cuvantul englezesc \"pansy\" provine din francesul \"pensee\" care inseamna \"gand\". In limbajul florilor, panseluta transmite mesajul de \"ma gandesc la tine\".",
+        "Bonus": "Bonus: Ea este asociata si cu magia iubirii in unele traditii europene. Asta apare si in \"Visul unei notpii de vara\" de Shakespear, unde sucul unei flori este folosit pentru a face pe cineva sa se indragosteasca",
+        "Image Link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqPnA1oLu6JgxSxatDjJwjGZ5fN8vnfFkpjTQejkwS4A5BNIf4iCLF64&s=10",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Regina-Noptii",
+        "Fact": "Ea apartine aceluiasi gen ca si tutunul - Nicotiana. Din cauza asta in engleza ii se spune \"jasmine tabacco\" sau \"flowering tobacco\". ",
+        "Bonus": "",
+        "Image Link": "https://www.whiteflowerfarm.com/mas_assets/cache/image/3/7/f/c/14332.Jpg",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Eustoma",
+        "Fact": "Floarea de astazi este Eustoma. Seamana cu trandafirul, dar nu este ruda cu el. Numele provide din greaca: \"eu\" inseamna \"bun/frumos\", iar \"stoma\" inseamna \"gura\". Astfel numele poate fi interpretat ca \"gura frumoasa\". Pe langa asta, simbolistica are legatura cu contrastul ei, ea pare delicata, dar este o floare de camp. Asta simbolizeaza ca isi pastreaza delicatetea chiar daca a fost obligata sa fie puternica.",
+        "Bonus": "",
+        "Image Link": "https://mullerseeds.ro/app/uploads/2024/12/FRS785-01.jpg",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Ochiul-Fetei (Coreopsis)",
+        "Fact": "Floarea de ieri era Ochiul-Fetei (Coreopsis). Numele Coreopsis vine din grecescul \"koris\", care inseamna \"plosnita\" si \"opsis\" care inseamna \"aspect\", din cauza ca semintele seamana cu micii insecte. Ea a fost folosita si ca planta tinctoriala, pentru pigmentii galbeni, portocalii si rosiatici.",
+        "Bonus": "",
+        "Image Link": "https://docaperene.ro/cdn/shop/files/ochiul-fetei-coreopsis-grandiflora-sunfire-yellow-red-653181.jpg?v=1748507929",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "Trillium",
+        "Fact": "Floarea de astazi este Trillium. Ce e intresant la ea este faptul ca totul se invarte in jurul cifre trei. Numele vine din latina si face referire la trei, are 3 petale, 3 sepale, iar frunzele sunt in grupuri de 3",
+        "Bonus": "",
+        "Image Link": "https://cdn.pixabay.com/photo/2017/06/22/10/19/the-nano-the-trillium-2430309_1280.jpg",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "e",
+        "Fact": "",
+        "Bonus": "",
+        "Image Link": "",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "s",
+        "Fact": "",
+        "Bonus": "",
+        "Image Link": "",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "e",
+        "Fact": "",
+        "Bonus": "",
+        "Image Link": "",
+        "Van Gogh Image Link": ""
+    },
+    {
+        "Flower Name": "i",
+        "Fact": "",
+        "Bonus": "",
+        "Image Link": "",
         "Van Gogh Image Link": ""
     }
 ]

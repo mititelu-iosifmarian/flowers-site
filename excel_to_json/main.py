@@ -14,7 +14,8 @@ required_columns = [
     "Fact",
     "Bonus",
     "Image Link",
-    "Van Gogh Image Link"
+    "Van Gogh Image Link",
+    "Date"
 ]
 
 

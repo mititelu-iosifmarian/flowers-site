@@ -77,7 +77,8 @@ body {
 .header-info {
     display: flex;
 
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 
     padding:
         8px
@@ -438,13 +439,15 @@ body {
     }
 
     .header-info {
-        justify-content: center;
+        justify-content: space-between;
 
         font-size: 12px;
 
         padding:
             7px
             0;
+
+        gap: 15px;
     }
 
 

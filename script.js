@@ -34,6 +34,9 @@ const nextButton =
 const pageCounter =
     document.getElementById("pageCounter");
 
+const articleDate =
+    document.getElementById("articleDate");
+
 
 
 /* -------------------------
@@ -103,6 +106,9 @@ function renderArticle() {
 
     const flower =
         flowers[currentPage];
+
+    articleDate.textContent =
+        flower["Date"] || "";
 
 
     /* TITLE */
